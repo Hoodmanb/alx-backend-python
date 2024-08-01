@@ -4,9 +4,9 @@ any necessary changes."""
 from typing import Tuple, Any, List
 
 
-def zoom_array(lst: Tuple[Any], factor: int = 2) -> List[Any]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """apply any necessary changes."""
-    zoomed_in: List[Any] = [
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
     ]
